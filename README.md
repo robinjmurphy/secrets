@@ -4,6 +4,21 @@
 
 A command-line tool for creating and accessing passwords and other secrets securely. It uses [S3](https://aws.amazon.com/s3/) for storage and [IAM permissions](http://docs.aws.amazon.com/IAM/latest/UserGuide/policies_permissions.html) for access control. Perfect for sharing passwords within your team.
 
+## Installation
+
+```
+npm install --global @robinjmurphy/secrets
+```
+
+Make sure you've exported your AWS credentials:
+
+```
+export AWS_ACCESS_KEY=...
+export AWS_SECRET_ACCESS_KEY=...
+```
+
+Follow the [setup](#setup) guide to create your S3 bucket.
+
 ## Usage
 
 Store a secret:
@@ -32,18 +47,7 @@ Remove a secret:
 secrets rm npm_password
 ```
 
-## Installation
-
-```
-npm install --global @robinjmurphy/secrets
-```
-
-Make sure you've exported your AWS credentials:
-
-```
-export AWS_ACCESS_KEY=...
-export AWS_SECRET_ACCESS_KEY=...
-```
+## Setup
 
 ### Create your secrets bucket
 
