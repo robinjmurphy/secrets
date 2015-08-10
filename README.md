@@ -4,6 +4,34 @@
 
 A command-line tool for creating and accessing passwords and other secrets securely. It uses [S3](https://aws.amazon.com/s3/) for storage and [IAM permissions](http://docs.aws.amazon.com/IAM/latest/UserGuide/policies_permissions.html) for access control. Perfect for sharing passwords within your team.
 
+## Usage
+
+Store a secret:
+
+```
+secrets set npm_password supersecret
+```
+
+List secrets:
+
+```bash
+secrets
+# => npm_password
+```
+
+Get a secret:
+
+```bash
+secrets npm_password
+# => supersecret
+```
+
+Remove a secret:
+
+```
+secrets rm npm_password
+```
+
 ## Installation
 
 ```
@@ -65,31 +93,3 @@ You control access to your secrets using [IAM permissions](http://docs.aws.amazo
 ```
 
 You can create separate read/write policies if you don't want everyone to be able to modify your secrets.
-
-## Usage
-
-Store a secret:
-
-```
-secrets set npm_password supersecret
-```
-
-List secrets:
-
-```bash
-secrets
-# => npm_password
-```
-
-Get a secret:
-
-```bash
-secrets npm_password
-# => supersecret
-```
-
-Remove a secret:
-
-```
-secrets rm npm_password
-```
