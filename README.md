@@ -15,7 +15,7 @@ npm install --global @robinjmurphy/secrets
 Store a secret:
 
 ```
-secrets create npm_password supersecret
+secrets set npm_password supersecret
 ```
 
 List secrets:
@@ -27,7 +27,7 @@ secrets ls
 
 Get a secret:
 
-```
-secrets npm_password
+```bash
+secrets get npm_password
 # => supersecret
 ```
