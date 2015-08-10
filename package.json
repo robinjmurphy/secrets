@@ -1,0 +1,25 @@
+{
+  "name": "@robinjmurphy/secrets",
+  "version": "1.0.0",
+  "description": "Share passwords and secrets securely with using S3",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjmurphy/secrets.git"
+  },
+  "keywords": [
+    "aws",
+    "s3",
+    "secrets",
+    "password"
+  ],
+  "author": "robin@robinmurphy.co.uk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robinjmurphy/secrets/issues"
+  },
+  "homepage": "https://github.com/robinjmurphy/secrets#readme"
+}
