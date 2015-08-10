@@ -17,7 +17,7 @@ export AWS_ACCESS_KEY=...
 export AWS_SECRET_ACCESS_KEY=...
 ```
 
-Follow the [setup](#bucket-setup) guide to create your S3 bucket.
+Follow the [bucket setup](#bucket-setup) guide to create your S3 bucket.
 
 ## Usage
 
