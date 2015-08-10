@@ -50,7 +50,7 @@ You control access to your secrets using IAM permissions. The easiest way to do 
     {
       "Effect": "Allow",
       "Action": ["s3:ListBucket"],
-      "Resource": ["arn:aws:s3:::test"]
+      "Resource": ["arn:aws:s3:::my-secrets-bucket"]
     },
     {
       "Effect": "Allow",
@@ -59,7 +59,7 @@ You control access to your secrets using IAM permissions. The easiest way to do 
         "s3:GetObject",
         "s3:DeleteObject"
       ],
-      "Resource": ["arn:aws:s3:::test/*"]
+      "Resource": ["arn:aws:s3:::my-secrets-bucket/*"]
     }
   ]
 }
@@ -85,4 +85,10 @@ Get a secret:
 ```bash
 secrets get npm_password
 # => supersecret
+```
+
+Remove a secret:
+
+```
+secrets rm npm_password
 ```
