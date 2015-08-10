@@ -10,10 +10,9 @@ A command-line tool for creating and accessing passwords and other secrets secur
 npm install --global @robinjmurphy/secrets
 ```
 
-Make sure you've exported your AWS credentials (including the region):
+Make sure you've exported your AWS credentials:
 
 ```
-export AWS_REGION=eu-west-1
 export AWS_ACCESS_KEY=...
 export AWS_SECRET_ACCESS_KEY=...
 ```
@@ -76,14 +75,14 @@ secrets set npm_password supersecret
 List secrets:
 
 ```bash
-secrets ls
+secrets
 # => npm_password
 ```
 
 Get a secret:
 
 ```bash
-secrets get npm_password
+secrets npm_password
 # => supersecret
 ```
 
