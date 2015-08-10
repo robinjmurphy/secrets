@@ -4,7 +4,7 @@
   "description": "Share passwords and secrets securely using S3",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "jshint ."
   },
   "bin": {
     "secrets": "index.js"
@@ -35,5 +35,8 @@
     "unused": true,
     "undef": true,
     "node": true
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0"
   }
 }
