@@ -2,7 +2,7 @@
 
 > Share passwords and secrets securely with using S3
 
-_Secrets_ is a command-line tool for creating and accessing passwords and other secrets securely. It uses S3 for storage and IAM permissions for access control.
+A command-line tool for creating and accessing passwords and other secrets securely. It uses S3 for storage and IAM permissions for access control.
 
 ## Installation
 
