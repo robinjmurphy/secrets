@@ -17,7 +17,7 @@ export AWS_ACCESS_KEY=...
 export AWS_SECRET_ACCESS_KEY=...
 ```
 
-Follow the [setup](#setup) guide to create your S3 bucket.
+Follow the [setup](#bucket-setup) guide to create your S3 bucket.
 
 ## Usage
 
@@ -47,7 +47,7 @@ Remove a secret:
 secrets rm npm_password
 ```
 
-## Setup
+## Bucket setup
 
 ### Create your secrets bucket
 
