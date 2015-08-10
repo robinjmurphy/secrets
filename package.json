@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/robinjmurphy/secrets/issues"
   },
-  "homepage": "https://github.com/robinjmurphy/secrets#readme"
+  "homepage": "https://github.com/robinjmurphy/secrets#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1.44"
+  }
 }

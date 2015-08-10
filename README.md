@@ -41,7 +41,7 @@ export SECRETS_BUCKET_NAME=my-secrets-bucket
 
 ### Set up IAM permissions
 
-You control access to your secrets using [IAM permissions](http://docs.aws.amazon.com/IAM/latest/UserGuide/policies_permissions.html). The easiest way to do this is to create an IAM _policy_ that has read/write access to your bucket and attach it to users, groups or roles that should have access. Here's an example policy document for read/write access:
+You control access to your secrets using [IAM permissions](http://docs.aws.amazon.com/IAM/latest/UserGuide/policies_permissions.html). The easiest way to do this is to create an IAM _policy_ that has read/write access to your bucket and [attach it](http://docs.aws.amazon.com/IAM/latest/UserGuide/policies_using-managed.html#attach-managed-policy-console) to users, groups or roles that should have access. Here's an example policy document for read/write access:
 
 ```json
 {
