@@ -2,7 +2,7 @@
 
 > Share passwords and secrets securely with using S3
 
-A command-line tool for creating and accessing passwords and other secrets securely. It uses S3 for storage and IAM permissions for access control.
+A command-line tool for creating and accessing passwords and other secrets securely. It uses [S3](https://aws.amazon.com/s3/) for storage and [IAM permissions](http://docs.aws.amazon.com/IAM/latest/UserGuide/policies_permissions.html) for access control.
 
 ## Installation
 
@@ -41,7 +41,7 @@ export SECRETS_BUCKET_NAME=my-secrets-bucket
 
 ### Set up IAM permissions
 
-You control access to your secrets using IAM permissions. The easiest way to do this is to create an IAM _policy_ that has read/write access to your bucket and attach it to users, groups or roles that should have access. Here's an example policy document for read/write access:
+You control access to your secrets using [IAM permissions](http://docs.aws.amazon.com/IAM/latest/UserGuide/policies_permissions.html). The easiest way to do this is to create an IAM _policy_ that has read/write access to your bucket and attach it to users, groups or roles that should have access. Here's an example policy document for read/write access:
 
 ```json
 {
