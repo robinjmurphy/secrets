@@ -1,5 +1,5 @@
 {
-  "name": "@robinjmurphy/secrets",
+  "name": "@robinmurphy/secrets",
   "version": "1.0.0",
   "description": "Share passwords and secrets securely using S3",
   "main": "index.js",

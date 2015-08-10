@@ -7,7 +7,7 @@ A command-line tool for creating and accessing passwords and other secrets secur
 ## Installation
 
 ```
-npm install --global @robinjmurphy/secrets
+npm install --global @robinmurphy/secrets
 ```
 
 Make sure you've exported your AWS credentials:
