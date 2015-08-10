@@ -1,7 +1,7 @@
 {
   "name": "@robinjmurphy/secrets",
   "version": "1.0.0",
-  "description": "Share passwords and secrets securely with using S3",
+  "description": "Share passwords and secrets securely using S3",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
