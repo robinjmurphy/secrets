@@ -6,7 +6,7 @@
 
 A command-line tool for creating and accessing passwords and other secrets securely. It uses [S3](https://aws.amazon.com/s3/) for storage and [IAM permissions](http://docs.aws.amazon.com/IAM/latest/UserGuide/policies_permissions.html) for access control. Perfect for sharing passwords within your team.
 
-Secrets are stored as plain text files in S3 and automatically encrypted at rest using [server-side encryption](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingServerSideEncryption.html)
+Secrets are stored as plain text files in S3 and automatically encrypted at rest using [server-side encryption](http://docs.aws.amazon.com/AmazonS3/latest/dev/UsingServerSideEncryption.html).
 
 ## Installation
 
